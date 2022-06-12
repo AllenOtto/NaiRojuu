@@ -1,0 +1,95 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	text-align: center;
+	min-width: 370px;
+}
+
+.header {
+	background-color: #F5F5F5;
+}
+
+.header h1 {
+	font-family: 'Major Mono Display', monospace;
+}
+
+.top-header {
+	display: grid;
+	grid-auto-flow: column;
+}
+
+.hero {
+	background-image: url("../img/bg-hero.jpg");
+	background-color: maroon;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+.main {
+	padding-bottom: 50px;
+	background-color: #F5F5F5;
+	padding-top: 100px;
+}
+
+.featured {
+	width: 70%;
+	margin: 0 auto .5em;
+	padding: 0 1em 1.5em;
+	box-shadow: 1px 0 15px gray;
+}
+
+.featured h3 {
+	padding: 1em 0 .5em;
+}
+
+.featured img {
+	width: 100%;
+	max-width: 250px;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 50px;
+	background-color: maroon;
+	background-image: url("../img/bg-hero.jpg");
+	background-size: cover;
+	background-blend-mode: multiply;
+
+}
+
+.footer a, .footer p {
+		color: white;
+}
+
+.footer-links {
+	display: grid;
+	grid-auto-flow: column;
+	padding-bottom: 50px;
+}
+
+.rights {
+	padding: .5em;
+}
