@@ -34,11 +34,12 @@ nav ul {
 /* Header Section */
 
 .cover {
-	background-image: url("../img/bg-artists-collage.png");
+	background-image: url("../img/bg-artists-collage-compressed.png");
 	background-color: maroon;
 	background-blend-mode: multiply;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 .cover a {
@@ -61,13 +62,13 @@ nav ul {
 
 .logo {
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .search {
 	max-width: 250px;
 	margin: 0 auto;
-	padding-top: 3em;
+	padding-top: 2em;
 }
 
 .search input {
@@ -84,7 +85,7 @@ nav ul {
 
 .hero {
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 150px;
 	color: white;
 	min-width: 370px;
 }
@@ -94,7 +95,11 @@ nav ul {
 .main {
 	padding-bottom: 50px;
 	background-color: #F5F5F5;
-	padding-top: 100px;
+	padding-top: 50px;
+}
+
+.main a {
+	color: maroon;
 }
 
 .featured {
