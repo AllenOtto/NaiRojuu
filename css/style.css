@@ -35,7 +35,7 @@ nav ul {
 
 .cover {
 	background-image: url("../img/bg-artists-collage-compressed.png");
-	background-color: maroon;
+	background-color: green;
 	background-blend-mode: multiply;
 	background-size: cover;
 	background-position: center;
@@ -61,8 +61,8 @@ nav ul {
 }
 
 .logo {
-	color: white;
-	font-size: 1.1em;
+	color: orange;
+	font-size: 1.2em;
 }
 
 .search {
@@ -76,7 +76,7 @@ nav ul {
 	width: 100%;
 	text-align: center;
 	border: none;
-	border-radius: 5px;
+	border-radius: 15px;
 	padding: .6em;
 	box-shadow: 1px 1px 3px black;
 }
@@ -84,7 +84,7 @@ nav ul {
 /* Hero Section */
 
 .hero {
-	padding-top: 100px;
+	padding-top: 80px;
 	padding-bottom: 150px;
 	color: white;
 	min-width: 370px;
@@ -99,14 +99,16 @@ nav ul {
 }
 
 .main a {
-	color: maroon;
+	color: orange;
 }
 
 .featured {
+	color: white;
+	background-color: black;
 	width: 70%;
 	margin: 0 auto .5em;
 	padding: 0 1em 1.5em;
-	box-shadow: 1px 1px 3px grey;
+	box-shadow: 1px 1px 3px orange;
 	transition: all .3s ease;
 }
 
@@ -128,7 +130,7 @@ nav ul {
 .footer {
 	text-align: center;
 	padding-top: 50px;
-	background-color: maroon;
+	background-color: green;
 	background-image: url("../img/bg-hero.jpg");
 	background-size: cover;
 	background-blend-mode: multiply;
@@ -139,15 +141,22 @@ nav ul {
 	color: white;
 }
 
+.footer-header {
+	color: orange;
+	padding-bottom: 1em;
+}
+
 .footer-links {
-	display: grid;
-	grid-auto-flow: column;
 	padding-bottom: 50px;
 }
 
+.page-links, .social-links {
+	padding-bottom: 1em;
+}
+
 .rights {
+	font-size: .7em;
 	padding: .5em;
 }
 
 /* Media Queries */
-
