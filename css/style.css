@@ -108,12 +108,11 @@ nav ul {
 	width: 70%;
 	margin: 0 auto .5em;
 	padding: 0 1em 1.5em;
-	box-shadow: 1px 1px 3px orange;
 	transition: all .3s ease;
 }
 
 .featured:hover {
-	box-shadow: 1px 1px 9px grey;
+	border-radius: 10px;
 }
 
 .featured h3 {
@@ -151,7 +150,7 @@ nav ul {
 }
 
 .page-links, .social-links {
-	padding-bottom: 1em;
+	padding-bottom: 1.5em;
 }
 
 .rights {
