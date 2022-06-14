@@ -30,7 +30,7 @@ a {
 
 .cover {
 	background-image: url("../img/bg-artists-collage-compressed.png");
-	background-color: green;
+	background-color: orange;
 	background-blend-mode: multiply;
 	background-size: cover;
 	background-position: center;
@@ -127,7 +127,7 @@ a {
 .footer {
 	text-align: center;
 	padding-top: 50px;
-	background-color: darkgreen;
+	background-color: blue;
 	background-image: url("../img/bg-millenials.jpg");
 	background-size: cover;
 	background-blend-mode: multiply;
@@ -158,6 +158,21 @@ a {
 
 /* Media Queries */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (min-width: 750px) {
+	body {
+		font-size: 1.2em;
+	}
 
+	.top-header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.logo {
+		font-size: 1.6em;		
+	}
+
+	.nav {
+		gap: 2em;
+	}
 }
