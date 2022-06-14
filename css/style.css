@@ -21,11 +21,6 @@ a {
 	text-decoration: none;
 }
 
-nav ul {
-	display: grid;
-	grid-auto-flow: column;
-}
-
 .container {
 	text-align: center;
 	min-width: 370px;
@@ -55,14 +50,17 @@ nav ul {
 	font-family: 'Major Mono Display', monospace;
 }
 
-.top-header {
-	display: grid;
-	grid-auto-flow: column;
-}
-
 .logo {
 	color: orange;
 	font-size: 1.2em;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.nav ul {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
 }
 
 .search {
@@ -129,8 +127,8 @@ nav ul {
 .footer {
 	text-align: center;
 	padding-top: 50px;
-	background-color: green;
-	background-image: url("../img/bg-hero.jpg");
+	background-color: darkgreen;
+	background-image: url("../img/bg-millenials.jpg");
 	background-size: cover;
 	background-blend-mode: multiply;
 	min-width: 370px;
@@ -159,3 +157,7 @@ nav ul {
 }
 
 /* Media Queries */
+
+@media only screen and (max-width: 750px) {
+
+}
