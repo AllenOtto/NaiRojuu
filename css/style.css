@@ -30,7 +30,7 @@ a {
 
 .cover {
 	background-image: url("../img/bg-artists-collage-compressed.png");
-	background-color: orange;
+	background-color: #60100B;
 	background-blend-mode: multiply;
 	background-size: cover;
 	background-position: center;
@@ -75,8 +75,7 @@ a {
 	text-align: center;
 	border: none;
 	border-radius: 15px;
-	padding: .6em;
-	box-shadow: 1px 1px 3px black;
+	padding: .4em;
 }
 
 /* Hero Section */
@@ -86,6 +85,10 @@ a {
 	padding-bottom: 150px;
 	color: white;
 	min-width: 370px;
+}
+
+.hero h1 {
+	font-size: 2.5em;
 }
 
 /* Main Section */
@@ -127,7 +130,7 @@ a {
 .footer {
 	text-align: center;
 	padding-top: 50px;
-	background-color: blue;
+	background-color: #60100B;
 	background-image: url("../img/bg-millenials.jpg");
 	background-size: cover;
 	background-blend-mode: multiply;
@@ -163,6 +166,11 @@ a {
 		font-size: 1.2em;
 	}
 
+	.hero {
+		padding-top: 130px;
+		padding-bottom: 200px;
+	}
+
 	.top-header {
 		display: flex;
 		justify-content: space-between;
@@ -172,7 +180,21 @@ a {
 		font-size: 1.6em;		
 	}
 
-	.nav {
-		gap: 2em;
+	.nav ul {
+		margin-right: .5em;
+	}
+
+	.nav li {
+		margin-left: 1.5em;
+	}
+
+	.search {
+		margin-right: 0;
+		padding-top: .5em;
+	}
+
+	.search input {
+		font-size: .8em;
+		margin-top: 0;
 	}
 }
