@@ -96,7 +96,8 @@ a {
 
 .main {
 	background-color: black;
-	border: 1px solid white;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
 .main a {
@@ -140,6 +141,7 @@ a {
 	background-size: cover;
 	background-blend-mode: multiply;
 	min-width: 370px;
+	font-size: .8em;
 }
 
 .footer a, .footer p {
@@ -155,7 +157,7 @@ a {
 	padding-bottom: 50px;
 }
 
-.page-links, .social-links {
+.page-links, .social-links, .contacts {
 	padding-bottom: 1.5em;
 }
 
